@@ -1,0 +1,87 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    background-color: black;
+    align-content: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(31, 30, 30);
+       
+}
+
+header img {
+    width: 80%;
+    margin-left: -15%;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+    list-style: none;
+    font-size: 80%;
+    text-decoration: none;
+    margin-left: -80%;
+      
+}
+
+header button {
+    display: flex;
+    align-content: flex-start;
+    justify-items: flex-start;
+    margin-left: -60%;
+
+}
+
+
+.slogan {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    animation: linea 2s infinite;
+
+}
+
+@keyframes linea {
+    0 {
+        transform: translate(0, 0);
+      }
+    50% {
+        transform: translate(20px, 0);
+      }
+    100% {
+        transform: translate(0px, 0px);
+      }
+}
+
+.cuerpo {
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.carrousel {
+    display: flex;
+   
+
+}
+
+.carrousel img {
+    margin:auto;
+    width: 33%;
+    height: 200px;
+}
+
+
