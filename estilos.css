@@ -1,9 +1,14 @@
 *{
     font-family: 'Arimo', sans-serif;
+    
 }
 
 body {
     background-color: black;
+    align-items: center;
+    width: 95%;
+    justify-items: center;
+    justify-content: center;
     align-content: center;
 }
 
@@ -84,4 +89,15 @@ header button {
     height: 200px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
+footer a {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+}
