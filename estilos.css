@@ -6,7 +6,7 @@
 body {
     background-color: black;
     align-items: center;
-    width: 95%;
+    width: 98%;
     justify-items: center;
     justify-content: center;
     align-content: center;
@@ -27,6 +27,7 @@ header {
 header img {
     width: 80%;
     margin-left: -15%;
+    height: 100%;
 }
 
 header a{
@@ -36,7 +37,10 @@ header a{
     font-size: 80%;
     text-decoration: none;
     margin-left: -80%;
-      
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 header button {
